@@ -1,0 +1,32 @@
+{
+    "name": "npm-unused-scripts",
+    "version": "0.0.1",
+    "description": "Find and clean unused package.json scripts",
+    "main": "lib/findUnused.js",
+    "bin": {
+      "npm-unused-scripts": "bin/cli.js"
+    },
+    "keywords": ["npm", "scripts", "clean", "unused", "cli"],
+    "author": "Huzaifa Azim",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Huzaifa Azim",
+            "email": "huzaifaazim0@gmail.com",
+            "url": "https://github.com/huzaifaazim0"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/huzaifaazim0/npm-unused-scripts.git"
+    },
+    "bugs": {
+        "url": "https://github.com/huzaifaazim0/npm-unused-scripts/issues"
+    },
+    "homepage": "https://github.com/huzaifaazim0/npm-unused-scripts#readme",
+    "dependencies": {
+      "globby": "^13.2.2",
+      "minimist": "^1.2.8"
+    }
+  }
+  
